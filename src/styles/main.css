@@ -3,14 +3,23 @@
   line-height: 0;
 }
 
+.palette {
+  margin-top: 10px;
+}
+
+.reset {
+  height: 25px;
+  width: 50px;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+
 .pixel {
   height: 10px;
   width: 10px;
   background-color: white;
   border: 1px solid grey;
   display: inline-block;
-
-
 }
 
 .color {
@@ -24,14 +33,27 @@
 .yellow {
   background-color: yellow;
 }
-
 .red {
   background-color: red;
 }
-
 .green {
   background-color: green;
 }
 .blue {
   background-color: blue;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.orange {
+  background-color: orange;
+}
+.grey {
+  background-color: grey;
+}
+.brown {
+  background-color: brown;
 }
