@@ -7,11 +7,11 @@ $(document).ready(function() {
     for(var i = 0; i < count; i ++) {
       $('.canvas').append('<div class="pixel"></div>');
     }
-    // $('.canvas').css('width', .pixel.width * num)
-    $('.canvas').width($('.pixel').width() * (num + 8));
+    var canvasWidth = (parseInt($('.pixel').css('width')) * num) + "px";
+    $('.canvas').css('width', canvasWidth)
   };
 
-  createCanvas(30);
+  createCanvas(50);
 
   var userColor = 'black';
 
